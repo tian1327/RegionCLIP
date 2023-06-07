@@ -57,7 +57,7 @@ _darcs
 /datasets/*
 !/datasets/*.*
 !/datasets/custom_images/
-!/datasets/custom_images/*.jpg
+/datasets/custom_images/*.jpg
 !/docs
 !/docs/*.*
 /projects/*/datasets

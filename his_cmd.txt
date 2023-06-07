@@ -1,0 +1,326 @@
+    1  exit
+    2  pwd
+    3  ls
+    4  df -h
+    5  cd slot1
+    6  cd ~/slot1
+    7  cd ../
+    8  ls
+    9  cd slot1
+   10  ls
+   11  ls -lthr
+   12  cd..
+   13  cd slot2
+   14  cd ..
+   15  cd slot2
+   16  ls
+   17  ls -lthr
+   18  git clone https://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@github.com/tian1327/Text4Vis.git
+   19  ls -lthr
+   20  cd Text4Vis/
+   21  ls -lthr
+   22  nvidia-smi
+   23  conda env list
+   24  cd ..
+   25  mv Text4Vis/ ../home/tian/
+   26  ls -lthr
+   27  cd ../home/tian/
+   28  ls
+   29  bash Anaconda-latest-Linux-x86_64.sh
+   30  bash Anaconda3-2023.03-1-Linux-x86_64.sh 
+   31  conda env list
+   32  pwd
+   33  ls
+   34  rm Anaconda3-2023.03-1-Linux-x86_64.sh 
+   35  ls
+   36  cd Text4Vis/
+   37  git pull
+   38  conda env create -f environment.yml 
+   39  conda create -n torch python=3.8
+   40  conda activate torch
+   41  pip3 install torch torchvision torchaudio
+   42  pip install randaugment
+   43  pip install pprintpp
+   44  pip install tqdm
+   45  pip install dotmap
+   46  pip install yaml
+   47  pip install PyYAML
+   48  pip install python-csv
+   49  pip install torchnet
+   50  pip install termcolor
+   51  pip install ftfy
+   52  sh scripts/run_train.sh  configs/k400/k400_train_rgb_vitb-32-f8.yaml
+   53  pip install regex
+   54  pip install decord
+   55  pip install pandas
+   56  sh scripts/run_train.sh  configs/k400/k400_train_rgb_vitb-32-f8.yaml
+   57  sh scripts/run_train_tian.sh  configs/k400/k400_train_rgb_vitb-32-f8.yaml
+   58  git status
+   59  conda env export > environment_linux.yml
+   60  git status
+   61  ls -lthr
+   62  mv environment.yml environment_mac.yml
+   63  git status
+   64  git add .
+   65  git status
+   66  git commit -m "export env"
+   67  git config --global user.email liutian1113@gmail.com
+   68  git config --global user.name "Tian Liu"
+   69  git status
+   70  git commit -m "export env"
+   71  git log
+   72  git push
+   73  git pull
+   74  python correlation_of_label_embeddings.py 
+   75  conda install -c conda-forge matplotlib
+   76  python correlation_of_label_embeddings.py 
+   77  git status
+   78  git pull
+   79  pip install fiftyone
+   80  cd ..
+   81  ls -lthr
+   82  sudo apt install ffmpeg
+   83  cd Text4Vis/
+   84  git staus
+   85  git status
+   86  git pull
+   87  cd ActivityNet_Dataset_Preparation/
+   88  python download_ActivityNet.py 
+   89  cd ../../slot2
+   90  ls
+   91  ls -lthr
+   92  git clone https://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@github.com/tian1327/zero-shot-video-to-text.git
+   93  git status
+   94  ls -lthr
+   95  cd zero-shot-video-to-text/
+   96  conda activate torch
+   97  ls -lthr
+   98  $ python run.py 
+   99  --token_wise --randomized_prompt
+  100  --run_type caption_images
+  101  --data_path examples/example_image.jpg
+  102  $ python run.py --token_wise --randomized_prompt --run_type caption_images --data_path examples/example_image.jpg
+  103  python run.py --token_wise --randomized_prompt --run_type caption_images --data_path examples/example_image.jpg
+  104  torch --v
+  105  torch -v
+  106  pip innstall ftfy regex tqdm
+  107  pip install ftfy regex tqdm
+  108  pip install clip
+  109  python run.py --token_wise --randomized_prompt --run_type caption_images --data_path examples/example_image.jpg
+  110  pip install transformers
+  111  python run.py --token_wise --randomized_prompt --run_type caption_images --data_path examples/example_image.jpg
+  112  pip install transformers==4.11.2
+  113  python run.py --token_wise --randomized_prompt --run_type caption_images --data_path examples/example_image.jpg
+  114  pip uninstall clip
+  115  pip3 install clip-by-openai
+  116  python run.py --token_wise --randomized_prompt --run_type caption_images --data_path examples/example_image.jpg
+  117  pip3 innstall torch==1.9.0+cuaaa
+  118  pip3 install torch==1.9.0+cuaaa
+  119  pip3 install torch==1.9.0+cu111
+  120  pip3 install torch==1.9.0
+  121  python run.py --token_wise --randomized_prompt --run_type caption_images --data_path examples/example_image.jpg
+  122  nvidia-smi
+  123  pip3 install torch==1.9.0 -f https://download.pytorch.org/whl/cu114/torch_stable.html
+  124  nvcc -V
+  125  nvcc -v
+  126  sudo apt install nvidia-cuda-toolkit
+  127  nvcc -v
+  128  conda activate tf
+  129  pwd
+  130  cd ../../slot2
+  131  ls -lthr
+  132  nvidia-smi
+  133  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/tian/anaconda3/envs/tf/lib
+  134  echo ${LD_LIBRARY_PATH}
+  135  cd ../
+  136  pwd
+  137  cd home/liuyi/
+  138  exit
+  139  conda activate tf
+  140  conda install -c conda-forge cudnn=8.0
+  141  conda activate tf
+  142  cd
+  143  pwd
+  144  cd anaconda3/envs/tf/
+  145  ls -lthr
+  146  cd lib
+  147  ls -lthr
+  148  sudo apt install nvidia-cudnn
+  149  nvidia-smi
+  150  ls -lthr
+  151  pwd
+  152  ls -lthr
+  153  git clone https://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@github.com/tian1327/FractureGenerator.git VAE_Frac
+  154  conda env list
+  155  conda create -n tf tensorflow-gpu
+  156  conda actiavte tf
+  157  conda activate tf
+  158  cd VAE_Frac/
+  159  cd colab/
+  160  ls -lthr
+  161  cp FractureGenerator_VAE_LD200.ipynb 2D_VAE.ipynb
+  162  git status
+  163  pip install mat73
+  164  pip install numpy==1.21
+  165  conda install -c conda-forge matplotlib
+  166  conda list
+  167  pip install tensorflow==2.5
+  168  conda list
+  169  pip install numpy==1.20
+  170  pip install numpy==1.19.2
+  171  pip install python==3.9
+  172  pip install python=3.9
+  173  pip uninstall matplotlib
+  174  pip install matplotlib
+  175  pip uninstall matplotlib
+  176  conda install -c conda-forge matplotlib
+  177  pip install matplotlib
+  178  conda deactivate
+  179  conda env list
+  180  conda remove  --name tf
+  181  conda remove --name tf --all
+  182  conda env list
+  183  conda create --name tf python=3.9
+  184  conda activate tf
+  185  nvidia-smi
+  186  pip install tensorflow
+  187  pip install matplotlib
+  188  pip install mat73
+  189  pip install numpy==1.20
+  190  pip install numpy==1.21
+  191  pip install numpy==1.22
+  192  pip install sklearn
+  193  pip uninstall sklearn
+  194  pip install scikit-learn
+  195  nvidia-smi
+  196  conda list
+  197  pip uninstall tensorflow
+  198  pip install tensorflow-gpu
+  199  pip install tensorflow-gpu==2.9
+  200  nvidia-smi
+  201  conda list
+  202  nvidia-smi
+  203  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/tian/anaconda3/envs/tf/lib
+  204  echo $LD_LIBRARY_PATH
+  205  export CUDA_VISIBLE_DEVICES=0
+  206  git status
+  207  git add ../
+  208  git status
+  209  git commit -m "set up GPU for VAE"
+  210  git log
+  211  git push
+  212  cd ..
+  213  git status
+  214  conda activate torch
+  215  touch README_tian.md
+  216  python ActivityNet-Video-Downloader/video2image.py data/ActivityNet_200/validation/Mixing_drinks/yjazHd6a5SQ.mp4  RegionCLIP/datasets/custom_images/ --level 1 --lib ffmpeg -fps 1
+  217  cd ..
+  218  cd RegionCLIP/
+  219  python ../ActivityNet-Video-Downloader/video2image.py data/ActivityNet_200/validation/Mixing_drinks/yjazHd6a5SQ.mp4  datasets/custom_images/ --level 1 --lib ffmpeg -fps 1
+  220  python ../ActivityNet-Video-Downloader/video2image.py ../data/samples/ datasets/custom_images/ --level 1 --lib ffmpeg -fps 1
+  221  python ../ActivityNet-Video-Downloader/video2image.py ../data/samples/ ../data/samples/ --level 1 --lib ffmpeg -fps 1
+  222  mkdir output
+  223  cd output/
+  224  mkdir regionns
+  225  rm regionns/
+  226  rm -rf regionns/
+  227  rm regions/
+  228  mkdir regions
+  229  ls
+  230  cd ../
+  231  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18 \
+  232  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  233  conda list
+  234  python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
+  235  cond env list
+  236  conda env list
+  237  conda create -n regionclip python=3.9
+  238  source activate regionclip
+  239  conda activate regionclip
+  240  conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+  241  pip install opencv-python timm diffdist h5py sklearn ftfy
+  242  pip install git+https://github.com/lvis-dataset/lvis-api.git
+  243  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  244  python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
+  245  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  246  pip install -e .
+  247  python3 -m pip install setuptools==59.0.1
+  248  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  249  cd detectron2/
+  250  ls -lthr
+  251  pip install -e .
+  252  cd ..
+  253  pip install -e .
+  254  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  255  nvcc -V
+  256  python
+  257  nvidia-smi
+  258  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/tian/anaconda3/envs/regionclip/lib
+  259  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  260  conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+  261  conda list
+  262  pip uninstall torch
+  263  pip cache purge
+  264  pip install torch -f https://download.pytorch.org/whl/torch_stable.html
+  265  conda list
+  266  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  267  pip uninstall torch
+  268  pip cache purge
+  269  conda install pytorch==2.0.0 torchvisionn==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+  270  conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+  271  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  272  conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+  273  pip3 install torch torchvision torchaudio
+  274  pip3 install torch=2.0.1 torchvision torchaudio
+  275  pip3 install torch==2.0.1 torchvision torchaudio
+  276  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  277  conda list
+  278  pip uninstall torchvision
+  279  pip install torchvision+cu113
+  280  pip install torchvision+cu111
+  281  pip install torchvision
+  282  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  283  cp ../data/samples/CN01Gm2Yc4k/img_*.jpg datasets/custom_images/CN01Gm2Yc4k_img_*.jpg
+  284  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  285  cd ../data/samples/
+  286  ls -lthr
+  287  cd yjazHd6a5SQ/
+  288  ls -lthr
+  289  rename 's/^img/yjazHd6a5SQ_img' img_*.jpg
+  290  sudo apt install rename
+  291  rename 's/^img/yjazHd6a5SQ_img' img_*.jpg
+  292  rename 's/^img/yjazHd6a5SQ_img/' img_*.jpg
+  293  ls -lthr
+  294  cd ..
+  295  ls
+  296  ls -lthr
+  297  cd CN01Gm2Yc4k/
+  298  ls -lthr
+  299* rename 's/^img/CN01Gm2Yc4k_img/' imeI_LceS_qnQg_*.jpg
+  300  ls -lthr
+  301  cd ..
+  302  ls -lthr
+  303  cd eI_LceS_qnQ/
+  304  ls -lthr
+  305  rename 's/^img/eI_LceS_qnQ_img/' img_*.jpg
+  306  ls -lthr
+  307  cd ..
+  308  ls -lthr
+  309  cd Ou24uqaFRPg/
+  310  ls -lthr
+  311  rename 's/^img/Ou24uqaFRPg_img/' img_*.jpg
+  312  ls -lthr
+  313  cd ..
+  314  ls ls
+  315  ls -l
+  316  ls -lthr
+  317  cp ../data/samples/CN01Gm2Yc4k/*.jpg datasets/custom_images/
+  318  cd ..
+  319  cd RegionCLIP/
+  320  cp ../data/samples/CN01Gm2Yc4k/*.jpg datasets/custom_images/
+  321  cp ../data/samples/yjazHd6a5SQ/*.jpg datasets/custom_images/
+  322  cp ../data/samples/eI_LceS_qnQ/*.jpg datasets/custom_images/
+  323  cp ../data/samples/Ou24uqaFRPg/*.jpg datasets/custom_images/
+  324  python3 ./tools/train_net.py --eval-only --num-gpus 1 --config-file ./configs/LVISv1-InstanceSegmentation/CLIP_fast_rcnn_R_50_C4_custom_img.yaml MODEL.WEIGHTS ./pretrained_ckpt/regionclip/regionclip_pretrained-cc_rn50x4.pth MODEL.CLIP.TEXT_EMB_PATH ./pretrained_ckpt/concept_emb/lvis_1203_cls_emb_rn50x4.pth MODEL.CLIP.OFFLINE_RPN_CONFIG ./configs/LVISv1-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml MODEL.CLIP.TEXT_EMB_DIM 640 MODEL.RESNETS.DEPTH 200 MODEL.ROI_BOX_HEAD.POOLER_RESOLUTION 18
+  325  git status
+  326  history > his_cmd.txt
