@@ -25,11 +25,11 @@ pip install -e .
 
 ### Test zero-shot object detection in ActivityNet dataset
 
-1. Slice the frames of selected videos in folder `../data/samples/`
-    * `python ../ActivityNet-Video-Downloader/video2image.py ../data/samples/ ../data/samples/ --level 1 --lib ffmpeg -fps 1`
+1. Slice the frames of selected videos in folder `../data/RegionCLIP_samples/`
+    * `python ../ActivityNet-Video-Downloader/video2image.py ../data/RegionCLIP_samples/ ../data/RegionCLIP_samples/ --level 1 --lib ffmpeg -fps 1`
 2. Copy the selected sliced frames to folder `datasets/custom_images/`
     * rename the sliced frames so they start with video id by `rename 's/^img/yjazHd6a5SQ_img/' img_*.jpg`
-    * `cp ../data/samples/CN01Gm2Yc4k/*.jpg datasets/custom_images/`
+    * `cp ../data/RegionCLIP_samples/CN01Gm2Yc4k/*.jpg datasets/custom_images/`
 3. Run inference for object detection with pretrained RegionCLIP model
 
 ```bash
