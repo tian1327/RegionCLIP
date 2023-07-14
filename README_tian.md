@@ -23,6 +23,18 @@ pip install -e .
 
 ```
 
+#### Env setup
+
+```bash
+# to export current env to yml file
+conda env export > environment.yml
+
+# to create env from yml file
+conda env create -f environment.yml
+
+```
+
+
 ### Test zero-shot object detection in ActivityNet dataset
 
 1. Slice the frames of selected videos in folder `../data/RegionCLIP_samples/`
